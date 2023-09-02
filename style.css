@@ -483,8 +483,9 @@ header {
 }
 
 .portfolio-content {
+  justify-content: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 1rem;
   margin-top: 2rem;
 }
@@ -495,7 +496,7 @@ header {
 }
 
 .portfolio-img iframe {
-  width: 100%;
+  /* width: 100%; */
   display: block;
 }
 

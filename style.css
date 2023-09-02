@@ -346,9 +346,7 @@ header {
   text-shadow: #2768d9;
 }
 
-.home-text h1 {
-  /* font-size: var(--big-font); */
-}
+
 
 .home-text h2 {
   color: #ff5e14;
@@ -486,7 +484,7 @@ header {
 
 .portfolio-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 1rem;
   margin-top: 2rem;
 }
